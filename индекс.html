@@ -9,12 +9,12 @@
 <body>
   <a-scene>
     <a-assets>
-      <img id="stoneTexture"
-        src="textures/stoneTexture.jpg">
-      <img id="grassTexture"
-        src="textures/grassTexture.jpg">
-      <img id="skyTexture"
-        src="textures/skyTexture.jpg">
+      <img id="металл"
+        src="textures/металл.jpg">
+      <img id="трава"
+        src="textures/трава.jpg">
+      <img id="небо"
+        src="textures/небо.jpg">
     </a-assets>
 
     <a-box position="0 1 -5" rotation="0 45 45" width="1" height="0.5" depth="1.5" src="#stoneTexture">
@@ -25,10 +25,10 @@
       <a-animation attribute="scale" begin="mouseleave" dur="800" to="1 0.5 1.5"></a-animation>
     </a-box>
 
-    <a-sky src="#skyTexture"></a-sky>
+    <a-sky src="#небо"></a-sky>
     <a-light type="ambient" color="#445451"></a-light>
     <a-light type="point" intensity="2" position="2 4 4"></a-light>
-    <a-plane src="#grassTexture" rotation="-90 0 0" height="100" width="100"></a-plane>
+    <a-plane src="#трава" rotation="-90 0 0" height="100" width="100"></a-plane>
 
     <a-text value="Strange Box" color="#000" position="-0.9 0.2 -3" scale="1.5 1.5" shadow="true"></a-text>
 
