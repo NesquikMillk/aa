@@ -6,12 +6,15 @@
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   </head>
   <body>
-    <a-scene>
-      <a-assets>
-        <img id="boxTexture" src="https://i.imgur.com/mYmmbrp.jpg">
-        <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg">
-        <img id="skyTexture" src="https://cdn1.ozone.ru/s3/multimedia-2/6295532894.jpg">
-      </a-assets>
+     <a-scene>
+    <a-assets>
+      <img id="stoneTexture"
+        src="textures/stoneTexture.jpg">
+      <img id="grassTexture"
+        src="textures/grassTexture.jpg">
+      <img id="skyTexture"
+        src="textures/skyTexture.jpg">
+    </a-assets>
 
       <a-sphere position="0 2 -5" rotation="0 45 45" radius="1" src="moon.jpg">
         <a-animation attribute="position" direction="alternate" dur="2000" repeat="indefinite"
